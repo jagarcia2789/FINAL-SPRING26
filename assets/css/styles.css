@@ -1,8 +1,23 @@
+/* General page */
 body {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   text-align: center;
+  color: #333; /* main text color */
+  background-color: #fafafa;
 }
 
+/* Title */
+h1 {
+  color: #111;
+  margin-top: 20px;
+}
+
+/* Instructions text */
+p {
+  color: #666;
+}
+
+/* Maze grid */
 #maze {
   display: grid;
   grid-template-columns: repeat(3, 100px);
@@ -11,6 +26,7 @@ body {
   margin-top: 20px;
 }
 
+/* Each square */
 .cell {
   width: 100px;
   height: 100px;
@@ -18,27 +34,43 @@ body {
   border: 2px solid #ccc;
 }
 
+/* Player position */
 .player {
   background: #ff4d4d;
 }
 
+/* Hidden state */
 .hidden {
   display: none;
 }
 
+/* Popup container */
 #popup {
   position: fixed;
   top: 20%;
   left: 50%;
   transform: translateX(-50%);
   background: white;
-  padding: 20px;
+  padding: 15px;
   border: 2px solid black;
+
+  width: 260px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 12px;
 }
 
+/* Popup image */
 #popup img {
-  width: 250px;
-    height: 250px;
+  width: 100%;
+  height: 200px;
   object-fit: cover;
+  display: block;
+  border-radius: 8px;
+}
 
+/* Popup text */
+#popup p {
+  color: #444;
+  margin-top: 10px;
 }
