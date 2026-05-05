@@ -1,27 +1,43 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
 #maze {
   display: grid;
   grid-template-columns: repeat(3, 100px);
-  gap: 5px;
   justify-content: center;
+  gap: 5px;
   margin-top: 20px;
 }
 
-/* walkable path */
-.path {
+.cell {
   width: 100px;
   height: 100px;
   background: #eee;
   border: 2px solid #ccc;
 }
 
-/* walls */
-.wall {
-  width: 100px;
-  height: 100px;
-  background: #222;
+.player {
+  background: red;
 }
 
-/* player */
-.player {
-  background: #ff4d4d !important;
+.hidden {
+  display: none;
+}
+
+#popup {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 15px;
+  border: 2px solid black;
+}
+
+#popup img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
