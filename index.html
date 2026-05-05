@@ -1,15 +1,23 @@
-<div id="maze">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Life Maze</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-  <div class="cell path" data-x="0" data-y="0"></div>
-  <div class="cell wall" data-x="1" data-y="0"></div>
-  <div class="cell wall" data-x="2" data-y="0"></div>
+<body>
 
-  <div class="cell path" data-x="0" data-y="1"></div>
-  <div class="cell path" data-x="1" data-y="1"></div>
-  <div class="cell wall" data-x="2" data-y="1"></div>
+<h1>My Life Maze</h1>
+<p>Use arrow keys</p>
 
-  <div class="cell wall" data-x="0" data-y="2"></div>
-  <div class="cell path" data-x="1" data-y="2"></div>
-  <div class="cell path" data-x="2" data-y="2"></div>
+<div id="maze"></div>
 
+<div id="popup" class="hidden">
+  <img id="popup-img">
+  <p id="popup-text"></p>
 </div>
+
+<script src="main.js"></script>
+</body>
+</html>
