@@ -1,43 +1,32 @@
 body {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   text-align: center;
+  background: #fafafa;
 }
 
-#maze {
+.gallery {
   display: grid;
-  grid-template-columns: repeat(3, 100px);
+  grid-template-columns: repeat(2, 250px);
+  gap: 20px;
   justify-content: center;
-  gap: 5px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
-.cell {
-  width: 100px;
-  height: 100px;
-  background: #eee;
-  border: 2px solid #ccc;
-}
-
-.player {
-  background: red !important;
-}
-
-.hidden {
-  display: none;
-}
-
-#popup {
-  position: fixed;
-  top: 20%;
-  left: 50%;
-  transform: translateX(-50%);
+.item {
   background: white;
-  padding: 15px;
-  border: 2px solid black;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
 }
 
-#popup img {
-  width: 200px;
+.item img {
+  width: 100%;
   height: 200px;
   object-fit: cover;
+  border-radius: 8px;
+}
+
+.item p {
+  margin-top: 10px;
+  font-size: 14px;
 }
