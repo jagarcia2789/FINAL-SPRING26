@@ -2,24 +2,24 @@ let player = { x: 0, y: 0 };
 
 const memories = {
   "1,0": {
-    img: "assets/img/pic1.jpg",
-    text: "This is where I started my journey."
+    img: "assets/img/Pic-1.jpg",
+    text: "This is me when I was young."
   },
   "2,1": {
-    img: "assets/img/pic2.jpg",
-    text: "A big moment in my life."
+    img: "assets/img/Pic-2.JPG",
+    text: "Soccer was a big part of my life."
   },
   "0,2": {
-    img: "assets/img/pic3.jpg",
-    text: "Something that shaped me."
+    img: "assets/img/Pic-3.JPG",
+    text: "Started my sneaker business."
   },
   "1,2": {
-    img: "assets/img/pic4.jpg",
-    text: "A challenge I overcame."
+    img: "assets/img/Pic-4.JPG",
+    text: "Traveling the world."
   },
   "2,2": {
-    img: "assets/img/pic5.jpg",
-    text: "Where I’m heading next."
+    img: "assets/img/Pic-5.JPG",
+    text: "Work is important."
   }
 };
 
