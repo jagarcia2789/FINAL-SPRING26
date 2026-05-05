@@ -19,7 +19,7 @@ body {
 }
 
 .player {
-  background: red;
+  background: red !important;
 }
 
 .hidden {
