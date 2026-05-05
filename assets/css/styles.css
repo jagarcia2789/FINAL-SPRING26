@@ -4,6 +4,7 @@ body {
   text-align: center;
   color: #333; /* main text color */
   background-color: #fafafa;
+  background: red;
 }
 
 /* Title */
